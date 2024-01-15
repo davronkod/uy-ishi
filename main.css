@@ -1,0 +1,1237 @@
+
+.container{
+   max-width:1920px;
+   height: 3876px;
+   top: -5px;
+   display: flex;
+   margin: 0 auto;
+   position: relative;
+   border: 2px solid gray;
+ 
+   /* background-color: aqua; */
+}
+.kattasi{
+    width: 1920px;
+    height: 96px;
+    background-color: rgb(0, 8, 255);
+    position: absolute;
+    
+}
+.e1{
+    width: 108px;
+    height: 43px;
+    top: -10px;
+    left: 318px;
+    font-size:20px ;
+    line-height:42.96px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    
+}
+/* .e1:hover{
+    color: rgb(241, 10, 10);
+} */
+.e2{
+    width: 105px;
+    height: 21px;
+    top: 30px;
+    left: 1109px;
+    color: white;
+    Size:18px;
+    line-height:21.48px;
+   position: absolute;
+   cursor: pointer;
+}
+/* .e2:hover{
+    color: rgb(241, 10, 10);
+} */
+.e3{
+    width: 126px;
+    height: 21px;
+    top: 30px;
+    left: 1254px;
+    size: 18px;
+    color: white;
+    line-height:21.48px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+/* .e3:hover{
+    color: rgb(241, 10, 10);
+} */
+button{
+    width: 160px;
+    height:51px;
+    top: 15px;
+    left: 1443px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 4px;
+    gap: 5px;
+    color: white;
+    background-color: rgb(255, 145, 1);
+    position: absolute;
+    
+}
+button:hover{
+    width: 160px;
+    height:51px;
+    border:2px solid white;
+    color: rgb(241, 10, 10);
+    transition: 0.5s;
+
+}
+.e4{
+    width: 304px;
+    height: 46px;
+    top: 20px;
+    left: 702px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgb(30, 113, 246);
+    transition: 0.6s;
+    position: absolute;
+}
+.e4>p{
+    width:50px;
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    color: black;
+    gap: 10px;
+}.e4>p1{
+    left: 60px;
+    top: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+.e4:hover{
+    width: 304px;
+    height: 46px;
+    color: red;
+    border: 2px solid white
+}
+.bosh{
+    width: 2000px;
+    height: 300px;
+    top: 80px;
+    background-color:  rgb(0, 8, 255);
+    position: relative;
+}
+.y1{
+    width: 840px;
+    height: 158px;
+    top: 16px;
+    left: 540px;
+    size: 64px;
+    line-height: 69px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+ }  
+ /* .y1:hover{ */
+    /* color: rgb(26, 244, 2); */
+ /* }  */
+ .box{
+    width: 1280px;
+    height: 100px;
+    border-radius: 10px;
+    top: 256px;
+    left: 340px;
+    box-shadow:0px 10px 10px rgb(210, 204, 204);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    
+ }
+ .y3{
+    width: 154px;
+    height: 100px;
+    left: 1126px;
+    border-radius: 0px, 10px, 10px, 0px;
+    background-color:  rgb(30, 113, 246);
+    position: absolute;
+    
+    
+ }
+ .y3>p7{
+    left: 50px;
+    top: 40px;
+    color: white;
+    font-size:20px;
+    position: absolute;
+ }
+ .y3:hover{
+    width: 154px;
+    height: 100px;
+    color: blue;
+    border:2px solid white ;
+
+ }
+ .y4{
+    left:50px ;
+    position: absolute;
+ }
+ 
+  .y5{
+    width: 2040px;
+    height: 29px;
+    top: 587px;
+    left: 330px;
+    font-size: 30px;
+    position: absolute;
+    transition: 0.5s;
+
+  }
+  .y5:hover{
+    color: blue;
+  }
+.y6{
+    width: 409px;
+    height: 692px;
+    top: 766px;
+    left: 320px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y7{
+
+   position: absolute; 
+}
+.y8{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y9{
+    top: 507px;
+    font-size: 25px;
+    left: 70px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y10{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+ 
+ 
+ .y11{
+    width: 407px;
+    height: 692px;
+    top: 70px;
+    left: 780px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y12{
+
+   position: absolute; 
+}
+.y13{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y14{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y15{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+ 
+ 
+ 
+ 
+ .y16{
+    width: 407px;
+    height: 692px;
+    top: -625px;
+    left: 1250px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y17{
+
+   position: absolute; 
+}
+.y18{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y19{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y20{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .y21{
+    width: 409px;
+    height: 692px;
+    top: -576px;
+    left: 320px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y22{
+
+   position: absolute; 
+}
+.y23{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y24{
+    top: 507px;
+    font-size: 25px;
+    left: 70px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y25{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+ 
+ 
+ .y26{
+    width: 407px;
+    height: 692px;
+    top: -1272px;
+    left: 780px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y27{
+
+   position: absolute; 
+}
+.y28{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y29{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y30{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+ 
+ 
+ 
+ 
+ .y31{
+    width: 407px;
+    height: 692px;
+    top: -1970px;
+    left: 1250px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y32{
+
+   position: absolute; 
+}
+.y33{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y34{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y35{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ .y36{
+    width: 409px;
+    height: 692px;
+    top: -1906px;
+    left: 320px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y37{
+
+   position: absolute; 
+}
+.y38{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y39{
+    top: 507px;
+    font-size: 25px;
+    left: 70px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y40{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+ 
+ 
+ .y41{
+    width: 407px;
+    height: 692px;
+    top: -2600px;
+    left: 780px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y42{
+
+   position: absolute; 
+}
+.y43{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y44{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y45{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+ 
+ 
+ 
+ 
+ .y46{
+    width: 407px;
+    height: 692px;
+    top: -3295px;
+    left: 1250px;
+    border: 1px solid rgb(193, 191, 191);
+    position: relative;
+    
+
+}
+.y47{
+
+   position: absolute; 
+}
+.y48{
+    width: 377px;
+    height: 68px;
+    top: 377px;
+    left: 20px;
+    font-size: 40px;
+    
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+}
+.y49{
+    top: 507px;
+    font-size: 25px;
+    left: 60px;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-user{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 30px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+    
+}
+.fa-calendar-days{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-wifi{
+    width: 22px;
+    height: 22px;
+    top: 600px;
+    color: blue;
+    left: 30px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;   
+}
+.y50{
+    top: 507px;
+    font-size: 25px;
+    left: 280px;
+    line-height: 40px;
+    position: absolute;   
+}
+.fa-tv{
+    width: 22px;
+    height: 22px;
+    top: 520px;
+    left: 250px;
+    color: blue;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+
+}
+.fa-clock{
+    width: 22px;
+    height: 22px;
+    top: 560px;
+    color: blue;
+    left: 250px;
+    padding: 2.75px, 4.58px, 2.75px, 4.58px;
+    position: absolute;
+}
+.fa-eye{
+width: 22px;
+height: 22px;
+top: 600px;
+color: blue;
+left: 250px;
+padding: 2.75px, 4.58px, 2.75px, 4.58px;
+position: absolute;  
+ }
+
+ .y51{
+    width: 148px;
+    height: 51px;
+    top: 3050px;
+    left: 886px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 5px;
+    gap: 10px;
+    transition: 0.4s;
+    background-color: blue;
+    position: absolute;
+    
+ }
+ /* .y51:hover{
+    width: 148px;
+    height: 51px;
+    border:5px solid yellow;
+ } */
+ .y51>p20{
+    left: 20px;
+    top: 15px;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+ }
+ .y52{
+    width: 625px;
+    height: 377px;
+    top: 3261px;
+    left: 320px;
+    position: absolute;
+    
+ }
+ .y53{
+    width: 625px;
+    height: 393px;
+    top: 3245px;
+    left: 975px;
+    position: absolute;
+    
+ }
+ .y54{
+    width: 1920px;
+    height: 109px;
+    top: 3767px;
+    left: 1px;
+    background-color: #055BD3;
+    position: absolute;
+    
+ }
+ .m{
+    width: 90px;
+    height: 36px;
+    top: -37px;
+    left: 324px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    cursor: pointer;
+    
+ }
+ /* .m:hover{
+    color: red;
+ } */
+ .m1{
+    width: 128px;
+    height: 21px;
+    top: 37px;
+    font-size: 12px;
+    left: 745px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    cursor: pointer;
+    
+ }
+ /* .m1:hover{
+    color: red;
+ } */
+ .m2{
+    width: 168px;
+    height: 21px;
+    top: 37px;
+    font-size: 12px;
+    left: 905px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    cursor: pointer;
+    
+ }
+ /* .m2:hover{
+    color: red;
+ } */
+ a{
+    width: 1002px;
+    color: white;
+    width: 117px;
+    height: 21px;
+    top: 57px;
+    left: 1125px;
+   position: absolute;
+   
+    
+ }
+ a:hover{
+    background-color: black;
+ }
+ .fa-facebook-f{
+    width: 11.67px;
+    height: 18.33px;
+    top: 57px;
+    left: 1325px;
+    color: white;
+    position: absolute;
+    
+ }
+ .fa-facebook-f:hover{
+    color: rgb(0, 255, 200);
+ }
+ .fa-instagram{
+    width: 11.67px;
+    height: 18.33px;
+    top: 57px;
+    left: 1355px;
+    color: white;
+    position: absolute;
+
+ }
+ .fa-instagram:hover{
+ color: rgb(0, 255, 200);
+ }
+
+ .fa-telegram{
+    width: 11.67px;
+    height: 18.33px;
+    top: 57px;
+    left: 1385px;
+    color: white;
+    position: absolute;
+ }
+
+ .fa-telegram:hover{
+    color: rgb(0, 255, 200);
+ }
